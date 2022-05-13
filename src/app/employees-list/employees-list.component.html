@@ -1,0 +1,23 @@
+<div align="center">
+    <h1>Employees List</h1>
+    <br>
+    <table border="3px solid">
+        <thead >
+                <tr>
+                    <th align="center">Employee No</th>
+                    <th align="center">Employee Name</th>
+                    <th align="center">Employee Age</th>
+                    <th align="center">Employee Salary</th>
+                </tr>
+        </thead>
+        <tbody>
+                <tr *ngFor="let e of employees">
+                    <td align="center"><a [routerLink]="['/employees',e.empno]">{{e.empno}}</a></td>
+                    <td align="center">{{e.empname}}</td>
+                    <td align="center">{{e.age}}</td>
+                    <td align="center">{{e.salary}}</td>
+                </tr>
+        </tbody>
+    </table>
+    <br><br><br><br><br><br><br><br>
+</div>

@@ -1,0 +1,27 @@
+<div align="center">
+    <h1>Google Employees List</h1>
+    <br>
+    <table border="3px solid">
+        <thead >
+                <tr>
+                    <th align="center">Employee No</th>
+                    <th align="center">Employee Name</th>
+                    <th align="center">Employee Phone</th>
+                    <th align="center">Employee City</th>
+                    <th align="center">Employee DOJ</th>
+                    <th align="center">Employee Salary</th>
+                </tr>
+        </thead>
+        <tbody>
+                <tr *ngFor="let e of googleemployeelist">
+                    <td align="center">{{e.empno}}</td>
+                    <td align="center">{{e.name}}</td>
+                    <td align="center">{{e.phone}}</td>
+                    <td align="center">{{e.city}}</td>
+                    <td align="center">{{e.doj}}</td>
+                    <td align="center">{{e.salary}}</td>
+                </tr>
+        </tbody>
+    </table>
+    <br><br><br>
+</div>
