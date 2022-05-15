@@ -1,5 +1,7 @@
 # My Sixth Project
 
+Learning & Exploring Route Parameters & Child Routes In Angular Routing 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.0.
 
 ## Development server
